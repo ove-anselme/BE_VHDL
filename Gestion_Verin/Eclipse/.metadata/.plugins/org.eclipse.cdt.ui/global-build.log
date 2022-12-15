@@ -1,0 +1,1357 @@
+15:06:01 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3868 Bytes program size (code + initialized data).
+Info:               27 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+15:06:43 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:07:05 **** Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:07:07 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:08:16 **** Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:08:18 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:09:34 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:17:59 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:21:26 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:21:52 **** Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:21:53 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:24:42 **** Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:24:44 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:26:43 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:29:21 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:30:55 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:32:06 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:32:41 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("direction du  vent   = %u\n", direction);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3932 Bytes program size (code + initialized data).
+Info:               27 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+15:47:17 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("direction du  vent   = %u\n", direction);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3932 Bytes program size (code + initialized data).
+Info:               27 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+15:49:10 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:49:12 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:55:12 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+15:57:08 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("direction du  vent   = %u\n", direction);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3932 Bytes program size (code + initialized data).
+Info:               27 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+16:09:08 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+16:31:43 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+16:37:32 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+16:38:10 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("direction du  vent   = %u\n", direction);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3916 Bytes program size (code + initialized data).
+Info:               27 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+16:38:59 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3868 Bytes program size (code + initialized data).
+Info:               27 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+16:39:42 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3868 Bytes program size (code + initialized data).
+Info:               27 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+16:48:22 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3868 Bytes program size (code + initialized data).
+Info:               27 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+16:51:01 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling fonction6.c to obj/default/fonction6.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/fonction6.o fonction6.c
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3792 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+16:57:50 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:46:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:47:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3792 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+17:06:12 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:43:57: error: expected ';' before ')' token
+    pwm = IORD_16DIRECT(AVALON_VERIN_0_BASE, 16) & 0x0002);
+                                                         ^
+hello_world_small.c:43:57: error: expected statement before ')' token
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+make: *** [obj/default/hello_world_small.o] Error 1
+17:06:33 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+17:07:32 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+17:07:57 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3828 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+17:08:30 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+17:12:30 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+17:21:34 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+17:27:06 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+17:31:21 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+17:41:20 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+17:44:33 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+17:45:36 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+17:49:55 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+17:54:30 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling fonction6.c to obj/default/fonction6.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/fonction6.o fonction6.c
+fonction6.c:18:6: error: conflicting types for 'verin_config'
+ void verin_config(uint8_t raz_n, uint8_t sens_rotation){
+      ^
+In file included from fonction6.c:1:0:
+fonction6.h:9:6: note: previous declaration of 'verin_config' was here
+ void verin_config(uint8_t raz_n, uint8_t en_pwm, uint8_t sens_rotation);
+      ^
+make: *** [obj/default/fonction6.o] Error 1
+17:56:33 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling fonction6.c to obj/default/fonction6.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/fonction6.o fonction6.c
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3820 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+17:58:00 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling fonction6.c to obj/default/fonction6.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/fonction6.o fonction6.c
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:03:31 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:08:46 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:09:10 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:09:24 **** Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:09:25 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:10:48 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:11:44 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3848 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:12:04 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:12:23 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:12:26 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:12:50 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3848 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:13:35 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling fonction6.c to obj/default/fonction6.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/fonction6.o fonction6.c
+fonction6.c:18:6: error: conflicting types for 'verin_config'
+ void verin_config(uint8_t raz_n, uint8_t sens_rotation){
+      ^
+In file included from fonction6.c:1:0:
+fonction6.h:9:6: note: previous declaration of 'verin_config' was here
+ void verin_config(uint8_t raz_n, uint8_t en_pwm, uint8_t sens_rotation);
+      ^
+make: *** [obj/default/fonction6.o] Error 1
+18:13:57 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling fonction6.c to obj/default/fonction6.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/fonction6.o fonction6.c
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3816 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:18:36 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3816 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:19:14 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3816 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:20:52 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3816 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:24:51 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling fonction6.c to obj/default/fonction6.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/fonction6.o fonction6.c
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:25:27 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:26:47 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:28:32 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]
+18:30:13 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:32:24 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:33:17 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Nios_Be_bsp//HAL/inc -I../Nios_Be_bsp/ -I../Nios_Be_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+hello_world_small.c: In function 'main':
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course d  %u\n", fin_butee_d);
+           ^
+hello_world_small.c:48:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("fin de course g %u\n", fin_butee_g);
+           ^
+hello_world_small.c:49:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+    printf("angle barre  %u\n", angle_barre);
+           ^
+hello_world_small.c:50:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t {aka long unsigned int}' [-Wformat=]
+hello_world_small.c:12:22: warning: unused variable 'Vitesse' [-Wunused-variable]
+  uint32_t direction, Vitesse;
+                      ^
+hello_world_small.c:12:11: warning: variable 'direction' set but not used [-Wunused-but-set-variable]
+  uint32_t direction, Vitesse;
+           ^
+Info: Linking Nios_Be.elf
+nios2-elf-g++  -T'../Nios_Be_bsp//linker.x' -msys-crt0='../Nios_Be_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Nios_Be_bsp/  -msmallc  -Wl,-Map=Nios_Be.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o Nios_Be.elf obj/default/fonction6.o obj/default/hello_world_small.o -lm -msys-lib=m
+nios2-elf-insert Nios_Be.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name Soc --quartus_project_dir "C:/Users/ove-a/Desktop/Projet_Vhdl/ip" --sopcinfo C:/Users/ove-a/Desktop/Projet_Vhdl/ip/software/Nios_Be_bsp/../../Soc.sopcinfo
+Info: (Nios_Be.elf) 3832 Bytes program size (code + initialized data).
+Info:               28 KBytes free for stack + heap.
+Info: Creating Nios_Be.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source Nios_Be.elf >Nios_Be.objdump
+[Nios_Be build complete]
+18:38:18 **** Incremental Build of configuration Nios II for project Nios_Be ****
+make all 
+Info: Building ../Nios_Be_bsp/
+C:/intelFPGA_lite/18.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Nios_Be_bsp/
+[BSP build complete]
+[Nios_Be build complete]

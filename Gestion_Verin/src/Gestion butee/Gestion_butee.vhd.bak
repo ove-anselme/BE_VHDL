@@ -1,0 +1,55 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.math_real.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity Gestion_butee is
+  generic (
+    N_1 : integer := 12;
+    N_2 : integer := 16
+  );
+  port (
+    pwm : in std_logic;
+    sens : in std_logic;
+    Angle_barre : in std_logic_vector(N_1 - 1 downto 0);
+    butee_g, butee_d : in std_logic_vector (N_2 - 1 downto 0);
+    --sens_out : out std_logic
+    out_sens : out std_logic;
+    out_pwm : out std_logic;
+    fin_course_droite : out std_logic;
+    fin_course_gauche : out std_logic
+
+  );
+end Gestion_butee;
+
+architecture Behavioral of Gestion_butee is
+  signal  fin_course_droite : std_logic;
+  signal  fin_course_gauche : std_logic;
+
+begin
+if sens = '1' then 
+  if Angle_barre >= butee_d then;
+    out_pwm <= '0';
+    fin_course_droite <= '1';
+  else
+    out_pwm <= pwm;
+    fin_course_droite <= '0';
+  end if;
+
+elsif sens = '0' then
+  if Angle_barre <= butee_g then;
+    out_pwm <= '0';
+    fin_course_gauche <= '1';
+  else
+    out_pwm <= pwm;
+    fin_course_gauche <= '0';
+  end if;
+end if;
+
+out_sens <= sens;
+
+end Behavioral;
+
+end Behavioral;

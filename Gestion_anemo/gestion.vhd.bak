@@ -1,0 +1,88 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity gestion is
+   
+    port (
+        vent_X : in std_logic;
+        clk_i : in std_logic;
+        arst_i : in std_logic;
+        clk_50M : in std_logic;
+        d_out : out std_logic_vector(7 downto 0)
+    );
+end entity gestion;
+
+architecture rtl of gestion is
+
+-- signal out_cnt : std_logic_vector(7 downto 0);
+-- signal rst : std_logic;
+-- signal en : std_logic;
+-- signal clk_1hz :  std_logic;
+-- signal srst_i : std_logic;
+-- signal RE : std_logic;
+-- signal q_o : std_logic_vector(7 downto 0);
+signal signal_out_cnt : std_logic_vector(7 downto 0);
+signal signal_rst : std_logic;
+signal signal_en : std_logic;
+--signal signal_en_i : std_logic;
+signal signal_arst_i : std_logic;
+signal signal_clk_1hz :  std_logic;
+signal signal_clk_50M :  std_logic;
+signal signal_srst_i : std_logic;
+signal signal_clk_i : std_logic;
+signal signal_RE : std_logic;
+signal signal_q_o : std_logic_vector(7 downto 0);
+--signal clk_i : std_logic := '0';
+signal signal_vent_X : std_logic;
+--signal vent : std_logic_vector(7 downto 0);
+signal signal_freq : std_logic_vector(7 downto 0);
+-------------------------------------------------------
+component counter
+    generic (
+        C_N : integer := 8
+    );
+    port (
+        arst_n_i : in std_logic;
+        clk_i : in std_logic;
+        srst_i : in std_logic;
+        en_i : in std_logic;
+        q_o : out std_logic_vector(C_N - 1 downto 0)
+    );
+end component ;
+-------------------------------------------------------
+component  gen_imp
+    port ( clk_50M: in std_logic;
+           srst : in std_logic;
+           clk_1hz : out std_logic);
+
+end component ;
+--------------------------------------------------------
+
+component edge_detector
+port(
+clk_i : in std_logic;
+vent_X : in std_logic;
+RE : out std_logic);
+end component;
+--------------------------------------------------------
+component registre
+    port(   clk_i,arst,en  :   in std_logic;
+        d_in        :   in std_logic_vector(7 downto 0);
+        d_out       :   out std_logic_vector(7 downto 0));
+end component;
+----------------------------------------------------------
+begin
+
+   
+    edge : edge_detector port map (clk_i => clk_i, vent_X => vent_X, RE => signal_RE);
+
+    gen : gen_imp port map ( clk_50M => clk_50M, srst => signal_srst_i, clk_1hz => signal_clk_1hz );
+
+    count : counter port map (clk_i => signal_clk_i, arst_n_i => arst_i, en_i => signal_RE , srst_i => signal_clk_1hz, q_o => signal_q_o);
+
+  regis : registre port map (en => signal_clk_1hz , clk_i => clk_i, arst => arst_i, d_in => signal_q_o , d_out => d_out);
+
+end rtl;
+

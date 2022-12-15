@@ -1,0 +1,37 @@
+C:/Users/User/Desktop/mounir_vhdl/edge_detector.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/Desktop/mounir_vhdl/edge_detector.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity edge_detector
+-- Compiling architecture rtl of edge_detector
+
+} {} {}} C:/Users/User/Desktop/mounir_vhdl/tb_gestion.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/Desktop/mounir_vhdl/tb_gestion.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_gestion
+-- Compiling architecture tb of tb_gestion
+-- Loading entity gestion
+
+} {} {}} C:/Users/User/Desktop/mounir_vhdl/counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/Desktop/mounir_vhdl/counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter
+-- Compiling architecture rtl of counter
+
+} {} {}} C:/Users/User/Desktop/mounir_vhdl/regsitre.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/User/Desktop/mounir_vhdl/regsitre.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity registre
+-- Compiling architecture arch_registre of registre
+
+} {} {}}

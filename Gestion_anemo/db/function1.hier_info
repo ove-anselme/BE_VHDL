@@ -1,0 +1,179 @@
+|gestion
+vent_X => edge_detector:edge.vent_X
+clk_i => edge_detector:edge.clk_i
+clk_i => gen_imp:gen.clk_50M
+clk_i => counter:count.clk_i
+clk_i => regsitre:regis.clk_i
+clk_i => mef:machine.clk_i
+arst_i => gen_imp:gen.srst
+arst_i => counter:count.arst_n_i
+arst_i => regsitre:regis.arst
+arst_i => mef:machine.arst_i
+d_out[0] <= regsitre:regis.d_out[0]
+d_out[1] <= regsitre:regis.d_out[1]
+d_out[2] <= regsitre:regis.d_out[2]
+d_out[3] <= regsitre:regis.d_out[3]
+d_out[4] <= regsitre:regis.d_out[4]
+d_out[5] <= regsitre:regis.d_out[5]
+d_out[6] <= regsitre:regis.d_out[6]
+d_out[7] <= regsitre:regis.d_out[7]
+
+
+|gestion|edge_detector:edge
+clk_i => Bd2.CLK
+clk_i => Bd1.CLK
+vent_X => Bd1.DATAIN
+RE <= RE.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|gestion|gen_imp:gen
+clk_50M => clk_1hz~reg0.CLK
+clk_50M => cmp[0].CLK
+clk_50M => cmp[1].CLK
+clk_50M => cmp[2].CLK
+clk_50M => cmp[3].CLK
+clk_50M => cmp[4].CLK
+clk_50M => cmp[5].CLK
+clk_50M => cmp[6].CLK
+clk_50M => cmp[7].CLK
+clk_50M => cmp[8].CLK
+clk_50M => cmp[9].CLK
+clk_50M => cmp[10].CLK
+clk_50M => cmp[11].CLK
+clk_50M => cmp[12].CLK
+clk_50M => cmp[13].CLK
+clk_50M => cmp[14].CLK
+clk_50M => cmp[15].CLK
+clk_50M => cmp[16].CLK
+clk_50M => cmp[17].CLK
+clk_50M => cmp[18].CLK
+clk_50M => cmp[19].CLK
+clk_50M => cmp[20].CLK
+clk_50M => cmp[21].CLK
+clk_50M => cmp[22].CLK
+clk_50M => cmp[23].CLK
+clk_50M => cmp[24].CLK
+clk_50M => cmp[25].CLK
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+srst => cmp.OUTPUTSELECT
+clk_1hz <= clk_1hz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|gestion|counter:count
+arst_n_i => q[0].ACLR
+arst_n_i => q[1].ACLR
+arst_n_i => q[2].ACLR
+arst_n_i => q[3].ACLR
+arst_n_i => q[4].ACLR
+arst_n_i => q[5].ACLR
+arst_n_i => q[6].ACLR
+arst_n_i => q[7].ACLR
+clk_i => q[0].CLK
+clk_i => q[1].CLK
+clk_i => q[2].CLK
+clk_i => q[3].CLK
+clk_i => q[4].CLK
+clk_i => q[5].CLK
+clk_i => q[6].CLK
+clk_i => q[7].CLK
+srst_i => q.OUTPUTSELECT
+srst_i => q.OUTPUTSELECT
+srst_i => q.OUTPUTSELECT
+srst_i => q.OUTPUTSELECT
+srst_i => q.OUTPUTSELECT
+srst_i => q.OUTPUTSELECT
+srst_i => q.OUTPUTSELECT
+srst_i => q.OUTPUTSELECT
+en_i => q.OUTPUTSELECT
+en_i => q.OUTPUTSELECT
+en_i => q.OUTPUTSELECT
+en_i => q.OUTPUTSELECT
+en_i => q.OUTPUTSELECT
+en_i => q.OUTPUTSELECT
+en_i => q.OUTPUTSELECT
+en_i => q.OUTPUTSELECT
+q_o[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+q_o[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+q_o[2] <= q[2].DB_MAX_OUTPUT_PORT_TYPE
+q_o[3] <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+q_o[4] <= q[4].DB_MAX_OUTPUT_PORT_TYPE
+q_o[5] <= q[5].DB_MAX_OUTPUT_PORT_TYPE
+q_o[6] <= q[6].DB_MAX_OUTPUT_PORT_TYPE
+q_o[7] <= q[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|gestion|regsitre:regis
+clk_i => d_out[0]~reg0.CLK
+clk_i => d_out[1]~reg0.CLK
+clk_i => d_out[2]~reg0.CLK
+clk_i => d_out[3]~reg0.CLK
+clk_i => d_out[4]~reg0.CLK
+clk_i => d_out[5]~reg0.CLK
+clk_i => d_out[6]~reg0.CLK
+clk_i => d_out[7]~reg0.CLK
+arst => d_out[0]~reg0.ACLR
+arst => d_out[1]~reg0.ACLR
+arst => d_out[2]~reg0.ACLR
+arst => d_out[3]~reg0.ACLR
+arst => d_out[4]~reg0.ACLR
+arst => d_out[5]~reg0.ACLR
+arst => d_out[6]~reg0.ACLR
+arst => d_out[7]~reg0.ACLR
+en => d_out[7]~reg0.ENA
+en => d_out[6]~reg0.ENA
+en => d_out[5]~reg0.ENA
+en => d_out[4]~reg0.ENA
+en => d_out[3]~reg0.ENA
+en => d_out[2]~reg0.ENA
+en => d_out[1]~reg0.ENA
+en => d_out[0]~reg0.ENA
+d_in[0] => d_out[0]~reg0.DATAIN
+d_in[1] => d_out[1]~reg0.DATAIN
+d_in[2] => d_out[2]~reg0.DATAIN
+d_in[3] => d_out[3]~reg0.DATAIN
+d_in[4] => d_out[4]~reg0.DATAIN
+d_in[5] => d_out[5]~reg0.DATAIN
+d_in[6] => d_out[6]~reg0.DATAIN
+d_in[7] => d_out[7]~reg0.DATAIN
+d_out[0] <= d_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[1] <= d_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[2] <= d_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[3] <= d_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[4] <= d_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[5] <= d_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[6] <= d_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d_out[7] <= d_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|gestion|mef:machine
+clk_i => etat_present.CLK
+arst_i => etat_present.ACLR
+continu => process_0.IN0
+start_stop => process_0.IN1
+srst <= etat_present.DB_MAX_OUTPUT_PORT_TYPE
+
+

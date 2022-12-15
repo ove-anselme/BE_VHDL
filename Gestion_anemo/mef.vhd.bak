@@ -1,0 +1,50 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity mef is
+    port 
+    (
+        clk     	:   in  std_logic;
+        arst  	:   in  std_logic;
+        continu     :   in  std_logic;
+        start_stop  			:   out std_logic;
+        srst	:	out std_logic
+  
+    );
+end entity mef;
+
+architecture rtl of mef is
+
+type etat is (repos, mesure);-- Define the states
+signal etat_present, etat_suivant : etat;-- Create a signal that uses 
+
+begin
+	--t
+    process(clk, arst)
+	begin
+		if arst	=	'0' then 
+			etat_present <= repos;
+		elsif (clk'event and clk = '1') then
+			case etat_present is
+				When repos =>
+					if continu = '1' then
+						etat_suivant <= mesure;
+						start_stop <= '1';
+					end if;
+				When mesure =>
+					if continu ='0' then
+						etat_suivant <= repos;
+						start_stop <= '0';
+				end if;
+				when others =>
+					etat_suivant <= repos;
+			end CASE;			
+		end if;
+	end process; 
+
+	srst	<=	'1'	when etat_present = repos and Continu = '1' 	else
+					'1' when etat_present = mesure and Continu = '0'	else
+					'0';
+end rtl;

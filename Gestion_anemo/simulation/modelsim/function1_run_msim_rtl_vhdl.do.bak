@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/User/Desktop/mounir_vhdl/regsitre.vhd}
+vcom -93 -work work {C:/Users/User/Desktop/mounir_vhdl/gestion.vhd}
+vcom -93 -work work {C:/Users/User/Desktop/mounir_vhdl/gen_imp.vhd}
+vcom -93 -work work {C:/Users/User/Desktop/mounir_vhdl/edge_detector.vhd}
+vcom -93 -work work {C:/Users/User/Desktop/mounir_vhdl/counter.vhd}
+

@@ -1,0 +1,45 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity tb_gestion is
+end entity tb_gestion;
+
+architecture tb of tb_gestion is
+signal vent_X : std_logic:='0';
+signal clk_i : std_logic:='0';
+signal arst_i : std_logic:='0';
+signal clk_50M : std_logic:='0';
+begin
+gestion_anemometre : entity work.gestion
+port map (
+        vent_X => vent_X,
+        clk_i=> clk_i,
+        arst_i=>arst_i,
+        clk_50M => clk_50M,
+        d_out => open 
+    );
+clk_stimulus : process
+begin
+    wait for 10 ns;
+    signal_clk_i <= not signal_clk_i;
+end process;
+
+vent_stimulus : process
+begin
+    wait for 5 ms;
+    signal_vent_X <= not signal_vent_X;
+end process;
+gene_stimulus : process
+begin
+    wait for 6 ns;
+    signal_clk_50M <= not signal_clk_50M;
+end process;
+process 
+begin
+ arst_i <= '1'; wait for 10 ns;
+ arst_i <= '0'; wait;
+end process;
+
+end tb;

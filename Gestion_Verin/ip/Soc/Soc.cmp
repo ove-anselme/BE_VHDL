@@ -1,0 +1,12 @@
+	component Soc is
+		port (
+			avalon_verin_0_conduit_end_clk_adc     : out std_logic;        -- clk_adc
+			avalon_verin_0_conduit_end_cs_n        : out std_logic;        -- cs_n
+			avalon_verin_0_conduit_end_angle_barre : in  std_logic := 'X'; -- angle_barre
+			avalon_verin_0_conduit_end_pwm         : out std_logic;        -- pwm
+			avalon_verin_0_conduit_end_sens        : out std_logic;        -- sens
+			clk_clk                                : in  std_logic := 'X'; -- clk
+			reset_reset_n                          : in  std_logic := 'X'  -- reset_n
+		);
+	end component Soc;
+

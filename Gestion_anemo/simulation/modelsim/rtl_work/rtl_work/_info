@@ -1,0 +1,300 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/etudiant/Desktop/MOUNIR_VHDL/simulation/modelsim/rtl_work
+Ecounter
+Z1 w1668679378
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/etudiant/Desktop/MOUNIR_VHDL/counter.vhd
+Z6 FC:/Users/etudiant/Desktop/MOUNIR_VHDL/counter.vhd
+l0
+L5
+VoNael_Cf4`nfGWd3L=aRY3
+!s100 JKj3S2ShHBZFI9NaJ7mKU3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1670783444
+!i10b 1
+Z9 !s108 1670783444.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/etudiant/Desktop/MOUNIR_VHDL/counter.vhd|
+Z11 !s107 C:/Users/etudiant/Desktop/MOUNIR_VHDL/counter.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 7 counter 0 22 oNael_Cf4`nfGWd3L=aRY3
+l20
+L18
+Vzka1TPXj8PK7;B2<Sgd292
+!s100 C@mOIXGIDILS8K?=Yzjkg2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eedge_detector
+Z14 w1667840628
+R2
+R3
+R4
+R0
+Z15 8C:/Users/etudiant/Desktop/MOUNIR_VHDL/edge_detector.vhd
+Z16 FC:/Users/etudiant/Desktop/MOUNIR_VHDL/edge_detector.vhd
+l0
+L5
+VTAPT?]NiW4]iHCDXfEJ020
+!s100 a844i6m5mQJXS0GhB=U;g2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/etudiant/Desktop/MOUNIR_VHDL/edge_detector.vhd|
+Z18 !s107 C:/Users/etudiant/Desktop/MOUNIR_VHDL/edge_detector.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 13 edge_detector 0 22 TAPT?]NiW4]iHCDXfEJ020
+l15
+L12
+Vd_^M8I6S8a4H1U42if9`23
+!s100 3:bkSMPW:WNalldF]C05i2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Egen_imp
+Z19 w1669275687
+R2
+R3
+R4
+R0
+Z20 8C:/Users/etudiant/Desktop/MOUNIR_VHDL/gen_imp.vhd
+Z21 FC:/Users/etudiant/Desktop/MOUNIR_VHDL/gen_imp.vhd
+l0
+L5
+VhETeCOXAOL[Dz2KML`G2L0
+!s100 5J_6<3`N?kRWRfef9zi533
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|C:/Users/etudiant/Desktop/MOUNIR_VHDL/gen_imp.vhd|
+Z23 !s107 C:/Users/etudiant/Desktop/MOUNIR_VHDL/gen_imp.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 7 gen_imp 0 22 hETeCOXAOL[Dz2KML`G2L0
+l13
+L11
+VD8]lFTMFO1IDlD5^D_STO3
+!s100 L=1Cln=SnAM0IM^X:FfKg2
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Egestion
+Z24 w1670783368
+R2
+R3
+R4
+R0
+Z25 8C:/Users/etudiant/Desktop/MOUNIR_VHDL/gestion.vhd
+Z26 FC:/Users/etudiant/Desktop/MOUNIR_VHDL/gestion.vhd
+l0
+L6
+VA3he8H?P_4AGnkQY]>LEd3
+!s100 ?e6fkFJ_QA<gF09Ce[U3L1
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|C:/Users/etudiant/Desktop/MOUNIR_VHDL/gestion.vhd|
+Z28 !s107 C:/Users/etudiant/Desktop/MOUNIR_VHDL/gestion.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z29 DEx4 work 7 gestion 0 22 A3he8H?P_4AGnkQY]>LEd3
+l68
+L16
+V_UzBZVAc_EY^>JSjDo7k:0
+!s100 eAle<;n6lmfL3e;EKbREQ1
+R7
+32
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Emef
+Z30 w1670765058
+Z31 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z32 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R4
+R0
+Z33 8C:/Users/etudiant/Desktop/MOUNIR_VHDL/mef.vhd
+Z34 FC:/Users/etudiant/Desktop/MOUNIR_VHDL/mef.vhd
+l0
+L6
+V0dK<A_=H]e[JGaZdPVBm=0
+!s100 KQelF0laf8EiWRA<czo1;2
+R7
+32
+R8
+!i10b 1
+R9
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/etudiant/Desktop/MOUNIR_VHDL/mef.vhd|
+Z36 !s107 C:/Users/etudiant/Desktop/MOUNIR_VHDL/mef.vhd|
+!i113 1
+R12
+R13
+Artl
+R31
+R32
+R2
+R3
+R4
+DEx4 work 3 mef 0 22 0dK<A_=H]e[JGaZdPVBm=0
+l26
+L18
+VmM;SAbS@m:M9=<I0C7:Vk0
+!s100 IkaMCbc4@ocF_ofJ;Q>^41
+R7
+32
+R8
+!i10b 1
+R9
+R35
+R36
+!i113 1
+R12
+R13
+Eregsitre
+Z37 w1669275801
+R3
+R4
+R0
+Z38 8C:/Users/etudiant/Desktop/MOUNIR_VHDL/regsitre.vhd
+Z39 FC:/Users/etudiant/Desktop/MOUNIR_VHDL/regsitre.vhd
+l0
+L4
+VC40X7jUYSEE4VVTUcn1?=2
+!s100 ?Fn77iZK5B5E_LET^z=3m3
+R7
+32
+R8
+!i10b 1
+R9
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/etudiant/Desktop/MOUNIR_VHDL/regsitre.vhd|
+Z41 !s107 C:/Users/etudiant/Desktop/MOUNIR_VHDL/regsitre.vhd|
+!i113 1
+R12
+R13
+Aarch_registre
+R3
+R4
+DEx4 work 8 regsitre 0 22 C40X7jUYSEE4VVTUcn1?=2
+l12
+L10
+V43Uf?=>ZSRoU0MYTKK=;]3
+!s100 4>2>cP93G3Yo_7Tb7CC<L2
+R7
+32
+R8
+!i10b 1
+R9
+R40
+R41
+!i113 1
+R12
+R13
+Etb_gestion
+Z42 w1670783363
+R2
+R3
+R4
+R0
+Z43 8C:/Users/etudiant/Desktop/MOUNIR_VHDL/tb_gestion.vhd
+Z44 FC:/Users/etudiant/Desktop/MOUNIR_VHDL/tb_gestion.vhd
+l0
+L6
+VTEKS>mPg8;bzRe<7H2cZX1
+!s100 bKj;h_TR5<<f5l2N60kI?0
+R7
+32
+R8
+!i10b 1
+R9
+Z45 !s90 -reportprogress|300|-work|work|C:/Users/etudiant/Desktop/MOUNIR_VHDL/tb_gestion.vhd|
+Z46 !s107 C:/Users/etudiant/Desktop/MOUNIR_VHDL/tb_gestion.vhd|
+!i113 1
+R12
+R13
+Atb
+R29
+R2
+R3
+R4
+DEx4 work 10 tb_gestion 0 22 TEKS>mPg8;bzRe<7H2cZX1
+l24
+L9
+VV`OIM8fLF=3CL<R<7WfoC3
+!s100 Yf>>U>4[44]gg:@TRi?]83
+R7
+32
+R8
+!i10b 1
+R9
+R45
+R46
+!i113 1
+R12
+R13

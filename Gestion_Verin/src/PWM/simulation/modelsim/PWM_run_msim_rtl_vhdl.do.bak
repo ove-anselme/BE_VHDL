@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/ove-a/Desktop/Verin/PWM/PWM.vhd}
+vcom -93 -work work {C:/Users/ove-a/Desktop/Verin/PWM/counter_8bits.vhd}
+vcom -93 -work work {C:/Users/ove-a/Desktop/Verin/PWM/Comparator_sup_8bits.vhd}
+vcom -93 -work work {C:/Users/ove-a/Desktop/Verin/PWM/Comparator_inf_8bits.vhd}
+

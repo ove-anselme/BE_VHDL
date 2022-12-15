@@ -1,0 +1,323 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.0
+Ecomparator_inf_8bits
+Z0 w1667987393
+Z1 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src
+Z6 8C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/Comparator_inf_8bits.vhd
+Z7 FC:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/Comparator_inf_8bits.vhd
+l0
+L6
+VYH1bz?4kSNEIEHSQSIfh=2
+!s100 n@PHdZ0JIR<;aLQ7Q[6hK0
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1668068371
+!i10b 1
+Z10 !s108 1668068371.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/Comparator_inf_8bits.vhd|
+Z12 !s107 C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/Comparator_inf_8bits.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 20 comparator_inf_8bits 0 22 YH1bz?4kSNEIEHSQSIfh=2
+l19
+L18
+VFTX^kF;iNW6H]jhkY55a>1
+!s100 8SAINUWj=aHW5m=ZR6Kl23
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecomparator_sup_8bits
+Z15 w1667987426
+R1
+R2
+R3
+R4
+R5
+Z16 8C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/Comparator_sup_8bits.vhd
+Z17 FC:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/Comparator_sup_8bits.vhd
+l0
+L5
+Vg?Wf[RJigSIC0?f?F=Ufe0
+!s100 ]3QA4nePP?:B_RO;L[<3H0
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/Comparator_sup_8bits.vhd|
+Z19 !s107 C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/Comparator_sup_8bits.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+R4
+DEx4 work 20 comparator_sup_8bits 0 22 g?Wf[RJigSIC0?f?F=Ufe0
+l16
+L15
+V6J;^hO76OIHcL]PH8Kih>2
+!s100 IzI8=T:EJa^e<ec=feb_D2
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Ecounter_8bits
+Z20 w1667994049
+Z21 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z22 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+R4
+R5
+Z23 8C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/counter_8bits.vhd
+Z24 FC:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/counter_8bits.vhd
+l0
+L6
+V1lGfzdHmnhl]^k]MUkJob3
+!s100 9@Ao9`@YWNJgF@N?9i@k:0
+R8
+32
+Z25 !s110 1668068372
+!i10b 1
+R10
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/counter_8bits.vhd|
+Z27 !s107 C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/counter_8bits.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R21
+R22
+R1
+R2
+R3
+R4
+DEx4 work 13 counter_8bits 0 22 1lGfzdHmnhl]^k]MUkJob3
+l20
+L18
+Vzk2bo0=cB99`A4ed9ZS681
+!s100 X4@<6Vf878K9jY>5dbYem1
+R8
+32
+R25
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Epwm
+Z28 w1668068312
+R21
+R22
+R1
+R2
+R3
+R4
+R5
+Z29 8C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/PWM.vhd
+Z30 FC:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/PWM.vhd
+l0
+L10
+V[LHl9Pc3HMgc^QOA4Aj=C3
+!s100 kZd:_c>B`?JiH3<G6B?:f3
+R8
+32
+R25
+!i10b 1
+Z31 !s108 1668068372.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/PWM.vhd|
+Z33 !s107 C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/PWM.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R21
+R22
+R1
+R2
+R3
+R4
+DEx4 work 3 pwm 0 22 [LHl9Pc3HMgc^QOA4Aj=C3
+l62
+L25
+VbTCIO6JTN=4GH5K:D8[iS1
+!s100 >cNJlB3j?XmAzokJMZLR]2
+R8
+32
+R25
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R13
+R14
+Etestbench_c
+Z34 w1667992161
+R1
+R2
+R3
+R4
+R5
+Z35 8C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_C.vhd
+Z36 FC:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_C.vhd
+l0
+L5
+VA=k7lLM1BZkN;oRDX4o_K1
+!s100 6_IeKHF6dbTS?bGTRe5LV2
+R8
+32
+R25
+!i10b 1
+R31
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_C.vhd|
+Z38 !s107 C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_C.vhd|
+!i113 1
+R13
+R14
+Atestbench
+R1
+R2
+R3
+R4
+DEx4 work 11 testbench_c 0 22 A=k7lLM1BZkN;oRDX4o_K1
+l26
+L7
+VY`jLVM[OCO;ENN@UjKVVT1
+!s100 FKPhib:RN1aKd10WISgbz2
+R8
+32
+R25
+!i10b 1
+R31
+R37
+R38
+!i113 1
+R13
+R14
+Etestbench_comp
+Z39 w1667988845
+R1
+R2
+R3
+R4
+R5
+Z40 8C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_Comp.vhd
+Z41 FC:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_Comp.vhd
+l0
+L5
+VC?onY=i?aG7LO^IkMoY2S3
+!s100 7d4om;n8zeZf`^_9dHCHg0
+R8
+32
+R25
+!i10b 1
+R31
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_Comp.vhd|
+Z43 !s107 C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_Comp.vhd|
+!i113 1
+R13
+R14
+Atestbench
+R1
+R2
+R3
+R4
+DEx4 work 14 testbench_comp 0 22 C?onY=i?aG7LO^IkMoY2S3
+l24
+L8
+VL;8QDZb_cBhYmYJ;_BlQB2
+!s100 >:fj@YoLd8YHnVnBCjP@J1
+R8
+32
+R25
+!i10b 1
+R31
+R42
+R43
+!i113 1
+R13
+R14
+Etestbench_pwm
+Z44 w1668068304
+R21
+R22
+R1
+R2
+R3
+R4
+R5
+Z45 8C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_PWM.vhd
+Z46 FC:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_PWM.vhd
+l0
+L8
+V50HBIVoj7EFHIJE0X3Y0g0
+!s100 0TKWlD:P4S7PKcUHgaANO2
+R8
+32
+R25
+!i10b 1
+R31
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_PWM.vhd|
+Z48 !s107 C:/Users/ove-a/Desktop/Projet_Vhdl/Verin/PWM/src/testbench_PWM.vhd|
+!i113 1
+R13
+R14
+Atestbench
+R21
+R22
+R1
+R2
+R3
+R4
+DEx4 work 13 testbench_pwm 0 22 50HBIVoj7EFHIJE0X3Y0g0
+l33
+L11
+VW?P<HFJkEC9Yj^o9ZnfPU0
+!s100 lj6EOnV5A[Y[2kV]zZLCD3
+R8
+32
+R25
+!i10b 1
+R31
+R47
+R48
+!i113 1
+R13
+R14

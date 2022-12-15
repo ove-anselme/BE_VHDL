@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Dec 09 18:37:27 2022
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : BE_VHDL
+Top-level Entity Name : Top
+Family : Cyclone IV E
+Total logic elements : 3,408
+    Total combinational functions : 2,359
+    Dedicated logic registers : 2,225
+Total registers : 2225
+Total pins : 7
+Total virtual pins : 0
+Total memory bits : 339,968
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

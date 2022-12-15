@@ -1,0 +1,96 @@
+|PWM
+clk => counter_8bits:counter.count_clk
+pwm << Comparator_inf_8bits:Comparator_inf.inf_C
+pwm_duty[0] => Comparator_inf_8bits:Comparator_inf.inf_B[0]
+pwm_duty[1] => Comparator_inf_8bits:Comparator_inf.inf_B[1]
+pwm_duty[2] => Comparator_inf_8bits:Comparator_inf.inf_B[2]
+pwm_duty[3] => Comparator_inf_8bits:Comparator_inf.inf_B[3]
+pwm_duty[4] => Comparator_inf_8bits:Comparator_inf.inf_B[4]
+pwm_duty[5] => Comparator_inf_8bits:Comparator_inf.inf_B[5]
+pwm_duty[6] => Comparator_inf_8bits:Comparator_inf.inf_B[6]
+pwm_duty[7] => Comparator_inf_8bits:Comparator_inf.inf_B[7]
+pwm_period[0] => Comparator_sup_8bits:Comparator_sup.sup_B[0]
+pwm_period[1] => Comparator_sup_8bits:Comparator_sup.sup_B[1]
+pwm_period[2] => Comparator_sup_8bits:Comparator_sup.sup_B[2]
+pwm_period[3] => Comparator_sup_8bits:Comparator_sup.sup_B[3]
+pwm_period[4] => Comparator_sup_8bits:Comparator_sup.sup_B[4]
+pwm_period[5] => Comparator_sup_8bits:Comparator_sup.sup_B[5]
+pwm_period[6] => Comparator_sup_8bits:Comparator_sup.sup_B[6]
+pwm_period[7] => Comparator_sup_8bits:Comparator_sup.sup_B[7]
+
+
+|PWM|counter_8bits:counter
+count_clk => count_reg[0].CLK
+count_clk => count_reg[1].CLK
+count_clk => count_reg[2].CLK
+count_clk => count_reg[3].CLK
+count_clk => count_reg[4].CLK
+count_clk => count_reg[5].CLK
+count_clk => count_reg[6].CLK
+count_clk => count_reg[7].CLK
+count_a_reset => count_reg.OUTPUTSELECT
+count_a_reset => count_reg.OUTPUTSELECT
+count_a_reset => count_reg.OUTPUTSELECT
+count_a_reset => count_reg.OUTPUTSELECT
+count_a_reset => count_reg.OUTPUTSELECT
+count_a_reset => count_reg.OUTPUTSELECT
+count_a_reset => count_reg.OUTPUTSELECT
+count_a_reset => count_reg.OUTPUTSELECT
+count_enable => count_reg.OUTPUTSELECT
+count_enable => count_reg.OUTPUTSELECT
+count_enable => count_reg.OUTPUTSELECT
+count_enable => count_reg.OUTPUTSELECT
+count_enable => count_reg.OUTPUTSELECT
+count_enable => count_reg.OUTPUTSELECT
+count_enable => count_reg.OUTPUTSELECT
+count_enable => count_reg.OUTPUTSELECT
+count[0] <= count_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= count_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+count[6] <= count_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+count[7] <= count_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PWM|Comparator_inf_8bits:Comparator_inf
+inf_A[0] => LessThan0.IN8
+inf_A[1] => LessThan0.IN7
+inf_A[2] => LessThan0.IN6
+inf_A[3] => LessThan0.IN5
+inf_A[4] => LessThan0.IN4
+inf_A[5] => LessThan0.IN3
+inf_A[6] => LessThan0.IN2
+inf_A[7] => LessThan0.IN1
+inf_B[0] => LessThan0.IN16
+inf_B[1] => LessThan0.IN15
+inf_B[2] => LessThan0.IN14
+inf_B[3] => LessThan0.IN13
+inf_B[4] => LessThan0.IN12
+inf_B[5] => LessThan0.IN11
+inf_B[6] => LessThan0.IN10
+inf_B[7] => LessThan0.IN9
+inf_C <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PWM|Comparator_sup_8bits:Comparator_sup
+sup_A[0] => LessThan0.IN8
+sup_A[1] => LessThan0.IN7
+sup_A[2] => LessThan0.IN6
+sup_A[3] => LessThan0.IN5
+sup_A[4] => LessThan0.IN4
+sup_A[5] => LessThan0.IN3
+sup_A[6] => LessThan0.IN2
+sup_A[7] => LessThan0.IN1
+sup_B[0] => LessThan0.IN16
+sup_B[1] => LessThan0.IN15
+sup_B[2] => LessThan0.IN14
+sup_B[3] => LessThan0.IN13
+sup_B[4] => LessThan0.IN12
+sup_B[5] => LessThan0.IN11
+sup_B[6] => LessThan0.IN10
+sup_B[7] => LessThan0.IN9
+sup_C <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

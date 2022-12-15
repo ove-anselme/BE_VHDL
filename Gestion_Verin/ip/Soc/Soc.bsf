@@ -1,0 +1,102 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 528 248)
+	(text "Soc" (rect 253 -1 268 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 232 20 244)(font "Arial" ))
+	(port
+		(pt 0 104)
+		(input)
+		(text "avalon_verin_0_conduit_end_angle_barre" (rect 0 0 168 12)(font "Arial" (font_size 8)))
+		(text "avalon_verin_0_conduit_end_angle_barre" (rect 4 93 232 104)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 224 104)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "clk_clk" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "clk_clk" (rect 4 165 46 176)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 224 176)(line_width 1))
+	)
+	(port
+		(pt 0 216)
+		(input)
+		(text "reset_reset_n" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "reset_reset_n" (rect 4 205 82 216)(font "Arial" (font_size 8)))
+		(line (pt 0 216)(pt 224 216)(line_width 1))
+	)
+	(port
+		(pt 0 72)
+		(output)
+		(text "avalon_verin_0_conduit_end_clk_adc" (rect 0 0 152 12)(font "Arial" (font_size 8)))
+		(text "avalon_verin_0_conduit_end_clk_adc" (rect 4 61 208 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 224 72)(line_width 1))
+	)
+	(port
+		(pt 0 88)
+		(output)
+		(text "avalon_verin_0_conduit_end_cs_n" (rect 0 0 141 12)(font "Arial" (font_size 8)))
+		(text "avalon_verin_0_conduit_end_cs_n" (rect 4 77 190 88)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 224 88)(line_width 1))
+	)
+	(port
+		(pt 0 120)
+		(output)
+		(text "avalon_verin_0_conduit_end_pwm" (rect 0 0 140 12)(font "Arial" (font_size 8)))
+		(text "avalon_verin_0_conduit_end_pwm" (rect 4 109 184 120)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 224 120)(line_width 1))
+	)
+	(port
+		(pt 0 136)
+		(output)
+		(text "avalon_verin_0_conduit_end_sens" (rect 0 0 140 12)(font "Arial" (font_size 8)))
+		(text "avalon_verin_0_conduit_end_sens" (rect 4 125 190 136)(font "Arial" (font_size 8)))
+		(line (pt 0 136)(pt 224 136)(line_width 1))
+	)
+	(drawing
+		(text "avalon_verin_0_conduit_end" (rect 59 43 274 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk_adc" (rect 229 67 500 144)(font "Arial" (color 0 0 0)))
+		(text "cs_n" (rect 229 83 482 176)(font "Arial" (color 0 0 0)))
+		(text "angle_barre" (rect 229 99 524 208)(font "Arial" (color 0 0 0)))
+		(text "pwm" (rect 229 115 476 240)(font "Arial" (color 0 0 0)))
+		(text "sens" (rect 229 131 482 272)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 209 147 436 307)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 229 171 476 352)(font "Arial" (color 0 0 0)))
+		(text "reset" (rect 195 187 420 387)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 229 211 500 432)(font "Arial" (color 0 0 0)))
+		(text " Soc " (rect 509 232 1048 474)(font "Arial" ))
+		(line (pt 224 32)(pt 304 32)(line_width 1))
+		(line (pt 304 32)(pt 304 232)(line_width 1))
+		(line (pt 224 232)(pt 304 232)(line_width 1))
+		(line (pt 224 32)(pt 224 232)(line_width 1))
+		(line (pt 225 52)(pt 225 140)(line_width 1))
+		(line (pt 226 52)(pt 226 140)(line_width 1))
+		(line (pt 225 156)(pt 225 180)(line_width 1))
+		(line (pt 226 156)(pt 226 180)(line_width 1))
+		(line (pt 225 196)(pt 225 220)(line_width 1))
+		(line (pt 226 196)(pt 226 220)(line_width 1))
+		(line (pt 0 0)(pt 528 0)(line_width 1))
+		(line (pt 528 0)(pt 528 248)(line_width 1))
+		(line (pt 0 248)(pt 528 248)(line_width 1))
+		(line (pt 0 0)(pt 0 248)(line_width 1))
+	)
+)

@@ -1,0 +1,255 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mounir/Desktop/mounir_vhdl/simulation/modelsim
+Ecounter
+Z1 w1668679378
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Mounir/Desktop/mounir_vhdl/counter.vhd
+Z6 FC:/Users/Mounir/Desktop/mounir_vhdl/counter.vhd
+l0
+L5
+VDBGJazPODG?]A1@_[hcb12
+!s100 JKj3S2ShHBZFI9NaJ7mKU3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1669625735
+!i10b 1
+Z9 !s108 1669625735.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mounir/Desktop/mounir_vhdl/counter.vhd|
+Z11 !s107 C:/Users/Mounir/Desktop/mounir_vhdl/counter.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 7 counter 0 22 DBGJazPODG?]A1@_[hcb12
+l20
+L18
+VM;g3X;YYoz7QMd05FNKmh2
+!s100 C@mOIXGIDILS8K?=Yzjkg2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eedge_detector
+Z14 w1667840628
+R2
+R3
+R4
+R0
+Z15 8C:/Users/Mounir/Desktop/mounir_vhdl/edge_detector.vhd
+Z16 FC:/Users/Mounir/Desktop/mounir_vhdl/edge_detector.vhd
+l0
+L5
+VHBPR^S7K;aHW`blHBLUge0
+!s100 a844i6m5mQJXS0GhB=U;g2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mounir/Desktop/mounir_vhdl/edge_detector.vhd|
+Z18 !s107 C:/Users/Mounir/Desktop/mounir_vhdl/edge_detector.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 13 edge_detector 0 22 HBPR^S7K;aHW`blHBLUge0
+l15
+L12
+VeLJ=SjCL2Wg^3ai;8_BaM1
+!s100 3:bkSMPW:WNalldF]C05i2
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Egen_imp
+Z19 w1669275687
+R2
+R3
+R4
+R0
+Z20 8C:/Users/Mounir/Desktop/mounir_vhdl/gen_imp.vhd
+Z21 FC:/Users/Mounir/Desktop/mounir_vhdl/gen_imp.vhd
+l0
+L5
+ViMONadl_<]?<A<dYCfbIo2
+!s100 5J_6<3`N?kRWRfef9zi533
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mounir/Desktop/mounir_vhdl/gen_imp.vhd|
+Z23 !s107 C:/Users/Mounir/Desktop/mounir_vhdl/gen_imp.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 7 gen_imp 0 22 iMONadl_<]?<A<dYCfbIo2
+l13
+L11
+V6YD7c@9RSLO^c41I^hH542
+!s100 L=1Cln=SnAM0IM^X:FfKg2
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Egestion
+Z24 w1669625551
+R2
+R3
+R4
+R0
+Z25 8C:/Users/Mounir/Desktop/mounir_vhdl/gestion.vhd
+Z26 FC:/Users/Mounir/Desktop/mounir_vhdl/gestion.vhd
+l0
+L6
+V=SzQ82@6^<WVdNlL:7o_<1
+!s100 ?e6fkFJ_QA<gF09Ce[U3L1
+R7
+31
+R8
+!i10b 1
+Z27 !s108 1669625734.000000
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mounir/Desktop/mounir_vhdl/gestion.vhd|
+Z29 !s107 C:/Users/Mounir/Desktop/mounir_vhdl/gestion.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z30 DEx4 work 7 gestion 0 22 =SzQ82@6^<WVdNlL:7o_<1
+l63
+L16
+V5Qg=N47UMR8IbY2@AnRRn3
+!s100 nLemWWbM2GA]8[JU=bD^`2
+R7
+31
+R8
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R12
+R13
+Eregsitre
+Z31 w1669275801
+R3
+R4
+R0
+Z32 8C:/Users/Mounir/Desktop/mounir_vhdl/regsitre.vhd
+Z33 FC:/Users/Mounir/Desktop/mounir_vhdl/regsitre.vhd
+l0
+L4
+V3dYBIV:ZXhMM7YjLXQ;Bi3
+!s100 ?Fn77iZK5B5E_LET^z=3m3
+R7
+31
+Z34 !s110 1669625734
+!i10b 1
+R27
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mounir/Desktop/mounir_vhdl/regsitre.vhd|
+Z36 !s107 C:/Users/Mounir/Desktop/mounir_vhdl/regsitre.vhd|
+!i113 1
+R12
+R13
+Aarch_registre
+R3
+R4
+DEx4 work 8 regsitre 0 22 3dYBIV:ZXhMM7YjLXQ;Bi3
+l12
+L10
+Vz2P=6L[dDJ]OI`^V?:JKe0
+!s100 4>2>cP93G3Yo_7Tb7CC<L2
+R7
+31
+R34
+!i10b 1
+R27
+R35
+R36
+!i113 1
+R12
+R13
+Etb_gestion
+Z37 w1669624164
+R2
+R3
+R4
+R0
+Z38 8C:/Users/Mounir/Desktop/mounir_vhdl/tb_gestion.vhd
+Z39 FC:/Users/Mounir/Desktop/mounir_vhdl/tb_gestion.vhd
+l0
+L6
+VAgL1bicTl>1VfTM:6M0SQ2
+!s100 bKj;h_TR5<<f5l2N60kI?0
+R7
+31
+R8
+!i10b 1
+R9
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/Mounir/Desktop/mounir_vhdl/tb_gestion.vhd|
+Z41 !s107 C:/Users/Mounir/Desktop/mounir_vhdl/tb_gestion.vhd|
+!i113 1
+R12
+R13
+Atb
+R30
+R2
+R3
+R4
+DEx4 work 10 tb_gestion 0 22 AgL1bicTl>1VfTM:6M0SQ2
+l25
+L9
+ViaiJ1>9U8`DZzNhCJ_5ki3
+!s100 ZMgZj]8Yn9bDem@X]JNV50
+R7
+31
+R8
+!i10b 1
+R9
+R40
+R41
+!i113 1
+R12
+R13
